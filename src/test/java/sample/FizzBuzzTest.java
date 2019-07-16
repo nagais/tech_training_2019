@@ -1,5 +1,6 @@
 package sample;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -7,6 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class FizzBuzzTest {
 
     private FizzBuzz fizzBuzz = new FizzBuzz();
+
+    @BeforeEach
+    void setup() {
+        fizzBuzz = new FizzBuzz();
+    }
 
     /**
      * 1を渡したら'1'という文字列が返ること
