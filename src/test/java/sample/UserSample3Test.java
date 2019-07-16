@@ -11,7 +11,7 @@ class UserSample3Test {
 
     @BeforeEach
     void setUp() {
-        user = new UserSample3(UserSample3.Sex.man);
+        user = new UserSample3(UserSample3.Sex.MAN);
     }
 
     /**

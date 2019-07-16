@@ -1,8 +1,8 @@
 package sample;
 
-public class UserSample2 {
+class UserSample2 {
 
-    String sex;
+    private String sex;
 
     UserSample2(String sex) {
         this.sex = sex;

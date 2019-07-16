@@ -9,11 +9,11 @@ class UserSample3 {
     }
 
     boolean isMan() {
-        return this.sex == Sex.man;
+        return this.sex == Sex.MAN;
     }
 
     enum Sex {
-        man,
-        woman
+        MAN,
+        WOMAN
     }
 }
