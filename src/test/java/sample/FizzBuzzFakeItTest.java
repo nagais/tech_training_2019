@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 class FizzBuzzFakeItTest {
 
@@ -23,18 +24,24 @@ class FizzBuzzFakeItTest {
     }
 
     /**
-     * 2を渡したら'2'という文字列が返ること
+     * 2を渡しても'2'が返却されず失敗するテスト
      */
     @Test
     void postIntTwoReturnStrTwo() {
-        assertEquals("2", fizzBuzz.convert(2));
+        // 失敗することの確認用
+        // assertEquals("2", fizzBuzz.convert(2));
+
+        assertNotEquals("2", fizzBuzz.convert(2));
     }
 
     /**
-     * 3を渡したら'3'という文字列が返ること
+     * 3を渡しても'3'が返却されず失敗するテスト
      */
     @Test
     void postIntThreeReturnStrThree() {
-        assertEquals("3", fizzBuzz.convert(3));
+        // 失敗することの確認用
+        // assertEquals("3", fizzBuzz.convert(3));
+
+        assertNotEquals("3", fizzBuzz.convert(3));
     }
 }
