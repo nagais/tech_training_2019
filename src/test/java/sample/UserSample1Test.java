@@ -14,6 +14,9 @@ class UserSample1Test {
         user = new UserSample1("man");
     }
 
+    /**
+     * 男性ユーザから男性かどうかを取得するとtrueになること
+     */
     @Test
     void testUserManTrue() {
         assertTrue(user.isMan);

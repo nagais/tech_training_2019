@@ -15,12 +15,18 @@ class UserSample2Test {
         user = new UserSample2("");
     }
 
+    /**
+     * 男性ユーザから男性かどうかを取得するとtrueになること
+     */
     @Test
     void testUserManResultTrue() {
         user = new UserSample2("man");
         assertTrue(user.isMan());
     }
 
+    /**
+     * 女性ユーザから男性かどうかを取得するとfalseになること
+     */
     @Test
     void testUserWomanResultFalse() {
         user = new UserSample2("woman");
