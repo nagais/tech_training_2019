@@ -6,13 +6,17 @@
   
 $DIR_PATH/ddd_sample/src/main/java/sample
 
+$DIR_PATH/ddd_sample/src/main/java/pro
+
 #### test code directory
   
 $DIR_PATH/ddd_sample/src/test/java/sample
 
+$DIR_PATH/ddd_sample/src/test/java/pro
+
 ## 対応クラス
 
-### Userクラスの仮実装
+### Userクラスの仮実装 (sample/*)
 
 ##### product code
 
@@ -22,7 +26,7 @@ $DIR_PATH/ddd_sample/src/test/java/sample
 
 `UserSample1Test.java`
 
-### Userでの三角測量
+### Userでの三角測量 (sample/*)
 
 ##### product code
 
@@ -32,7 +36,7 @@ $DIR_PATH/ddd_sample/src/test/java/sample
 
 `UserSample2Test.java`
 
-### Userでの明白な実装
+### Userでの明白な実装 (sample/*)
 
 ##### product code
 
@@ -42,7 +46,7 @@ $DIR_PATH/ddd_sample/src/test/java/sample
 
 `UserSample3Test.java`
 
-### 重複除去
+### 重複除去 (sample/*)
 
 ##### product code
 
@@ -54,9 +58,17 @@ $DIR_PATH/ddd_sample/src/test/java/sample
 - `FizzBuzzFakeItTest.java`
 - `FizzBuzzTest.java`
 
-### アサーテーションルーレット
+### アサーテーションルーレット (sample/*)
 
 ##### product code
+
+`FizzBuzz.java`
+
+##### test code
+
+`FizzBuzzTest.java`
+
+### 実践編 (pro/*)
 
 `FizzBuzz.java`
 
@@ -67,3 +79,5 @@ $DIR_PATH/ddd_sample/src/test/java/sample
 ## Reference
 
 [テスト駆動開発って何だろう (DevelopersIO)](https://dev.classmethod.jp/study_meeting/read/what-tdd/)
+
+[FizzBuzz 問題をテスト駆動型開発で実装する (準備編)](https://qiita.com/tentom/items/17ca27358bdac764a68b)
